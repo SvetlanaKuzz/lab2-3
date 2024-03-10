@@ -5,8 +5,8 @@ if a.lower() != "красный" and a.lower() !="желтый" and a.lower() !=
 elif b.lower() != "красный" and b.lower() !="желтый" and b.lower() !="синий":
     print("Ошибка цвета")
 elif a.lower() == "красный" and b.lower() == "синий" or a.lower() == "синий" and b.lower() == "красный":
-    print("Фиолетовый")
+    print("фиолетовый")
 elif a.lower() == "красный" and b.lower() == "желтый" or a.lower() == "желтый" and b.lower() == "красный":
-    print("Оранжевый")
+    print("оранжевый")
 elif a.lower() == "синий" and b.lower() == "желтый" or a.lower() == "желтый" and b.lower() == "синий":
-    print("Зеленый")
+    print("зеленый")

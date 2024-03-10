@@ -1,12 +1,12 @@
 a = input("Введите первый цвет: ")
 b = input("Введите второй цвет: ")
-if a != "красный" and a !="желтый" and a !="синий":
+if a.lower() != "красный" and a.lower() !="желтый" and a.lower() !="синий":
     print("Ошибка цвета")
-elif b != "красный" and b !="желтый" and b !="синий":
+elif b.lower() != "красный" and b.lower() !="желтый" and b.lower() !="синий":
     print("Ошибка цвета")
-elif a == "красный" and b == "синий" or a == "синий" and b == "красный":
+elif a.lower() == "красный" and b.lower() == "синий" or a.lower() == "синий" and b.lower() == "красный":
     print("Фиолетовый")
-elif a == "красный" and b == "желтый" or a == "желтый" and b == "красный":
+elif a.lower() == "красный" and b.lower() == "желтый" or a.lower() == "желтый" and b.lower() == "красный":
     print("Оранжевый")
-elif a == "синий" and b == "желтый" or a == "желтый" and b == "синий":
+elif a.lower() == "синий" and b.lower() == "желтый" or a.lower() == "желтый" and b.lower() == "синий":
     print("Зеленый")
